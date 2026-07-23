@@ -1,7 +1,6 @@
 # ABC Challenge
 
 ## Link tablero
-
 https://juancarlospastasvalencia.atlassian.net/jira/software/projects/RF/boards/34/backlog?atlOrigin=eyJpIjoiMjQ5ZWU3MmIxZjg4NDE2ZTk4M2I1MTQyMjZkZmRjNmMiLCJwIjoiaiJ9
 
 ## Imágenes por letra

@@ -1,6 +1,12 @@
-// Función temporal para probar el flip de las cards
 function voltear(card) {
     card.classList.toggle('volteada');
+
+    // Solo cuenta la primera vez que se descubre la letra
+    if (!card.classList.contains('descubierta') && card.classList.contains('volteada')) {
+        card.classList.add('descubierta');
+        const contador = document.getElementById('contador');
+        contador.textContent = Number(contador.textContent) + 1;
+    }
 }
 
 function filtrar(tipo) {
