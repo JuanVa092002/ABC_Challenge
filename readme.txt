@@ -11,5 +11,3 @@ Q:https://i.pinimg.com/736x/e2/10/b6/e210b6e8933e0b6d35b7ffb6297437fe.jpg
 R:https://i.pinimg.com/736x/11/fe/32/11fe32cc93a67bb7606744a52349b75c.jpg
 S:https://www.primeraescuela.com/imagestn/alfabeto/set3/sandia_c_200w.png
 T:https://previews.123rf.com/images/ninchikvector/ninchikvector1909/ninchikvector190900057/132015812-tomato-icon-with-letter-t-cartoon-style-object-vector-illustration.jpg
-
-
