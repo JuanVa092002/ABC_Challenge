@@ -1,0 +1,98 @@
+/* 🎨 Paleta infantil */
+:root {
+  --azul: #4D96FF;
+  --amarillo: #FFD93D;
+  --verde: #6BCB77;
+  --rojo: #FF6B6B;
+  --fondo: #FFF7E6;
+  --texto: #333;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--fondo);
+}
+header img {
+  width: 60px;        /* tamaño pequeño tipo logo */
+  height: 60px;
+  object-fit: cover;  /* evita que se deforme */
+  border-radius: 50%; /* forma circular (más amigable para niños) */
+  margin-right: 15px; /* espacio con el texto */
+}
+
+/* Para alinear imagen + contenido del nav */
+header.navbar {
+  display: flex;
+  align-items: center; /* centra verticalmente */
+}
+/* 🔝 NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  background: linear-gradient(90deg, var(--azul), var(--verde));
+  padding: 15px 25px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 🧠 Título */
+.navbar h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+/* 🔢 Contador */
+.contador {
+  background-color: var(--amarillo);
+  color: var(--texto);
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* 🔘 Botones */
+button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+/* 🎯 Botón vocales */
+#btnMostrarVocales {
+  background-color: var(--rojo);
+  color: white;
+}
+
+/* 🎯 Botón todos */
+#btnMostrartodos {
+  background-color: var(--azul);
+  color: white;
+}
+
+/* ✨ Hover */
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* 📱 Responsive */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
